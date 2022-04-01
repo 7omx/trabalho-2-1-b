@@ -121,3 +121,81 @@ if (dn >= 1902 && dn <= 1957 && dt >= 1918 && dt <= 1997){
     //se não
     document.write("<br>NÂO REQUERER")
 }
+//QUESTION 04
+
+document.writeln("<br><br>04:<br><br>")
+
+
+let no = "biscoito" //nome produto
+let qt = 5          //quantidade
+let pc = 2.50       //preço 
+let tt = qt * pc    //quantidade x preço
+
+
+if (qt > 0 && qt <=5){
+    let ds = tt * 0.02  //desconto 2%
+    let vt = tt - ds
+
+    document.write(
+        "Produto : "+no+
+        "<br>Quantidade : "+qt+
+        "<br>Valorunitario: "+pc+"<br>");
+    document.write("valor total : "+vt)
+}else if(qt > 5 && qt <= 10){
+    let ds = tt * 0.03  //desconto 3%
+    let vt = tt - ds    //
+
+    document.write(
+        "Produto : "+no+
+        "<br>Quantidade : "+qt+
+        "<br>Valorunitario: "+pc+"<br>");
+    document.write("valor total : "+vt)
+}else if(qt <= 10){
+    let ds = tt * 0.05  //desconto 5%
+    let vt = tt - ds    //
+
+    document.write(
+        "Produto : "+no+
+        "<br>Quantidade : "+qt+
+        "<br>Valorunitario: "+pc+"<br>");
+    document.write("valor total : "+vt);
+}else {
+    //valor inválido
+    document.write("valor inválido")
+
+}
+
+//QUESTION 05
+
+document.writeln("<br><br>05:<br><br>")
+
+let co = 6;     //código
+
+document.write(
+    "Valor do Produto : "+co+
+    "<br>")
+if (co == 1){
+    //a.np
+    document.write(
+    "Alimento Não-perecível");
+}else if( co >= 2 && co <=4){
+    //a.p
+    document.write(
+    "Alimento Perecível"
+    );
+}else if( co >= 5 && co <=6){
+    //v
+    document.write(
+    "Vestuário");
+}else if( co > 6 && co <= 7){
+    //h.p
+    document.write(
+    "Higiene Pessoal");
+}else if( co >= 8 && co <= 15){
+    //l.u.d
+    document.write("Limpeza e Utensílios Domésticos");
+}else{
+    //código inválido
+    document.write(
+    "Código Inválido")
+}
