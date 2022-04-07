@@ -199,3 +199,95 @@ if (co == 1){
     document.write(
     "Código Inválido")
 }
+//QUESTION 06
+
+document.writeln("<br><br>06:<br><br>")
+
+
+let cod = 1         //codigo 
+
+if ( cod == 1 ){
+    //cachorro quente
+var qua = 5        
+var val = 2.50
+}else if ( cod == 2 ){
+    //batata frita
+var qua = 4
+var val = 3.0     
+}else if ( cod == 3 ){
+    //pastel
+var qua = 5
+var val = 5.0     
+}else if ( cod == 4 ){
+    //sucos
+var qua = 3
+var val = 2.0    
+}else if ( cod == 5 ){
+    //refrigerantes
+var qua = 2
+var val = 2.0     
+}else {
+    //valor inválido
+    document.write("Valores Inválidos");
+}
+let vt = val * qua
+    //valor total  
+    document.write(
+    "O total a se pagar o lanche é: R$"+vt+
+    "<br>");  
+
+
+//QUESTION 07
+
+document.writeln("<br><br>07:<br><br>");
+
+
+let num = 100  
+
+while(num <=110){
+    document.write(" "+num+",");
+    num++;
+} 
+
+//QUESTION 09
+
+document.writeln("<br><br>09:<br><br>")
+
+let inte = 2;       //inteiro
+
+if ( inte >= 1 && val <= 10){
+    document.write(inte + " x 1 = "+ inte * 1 +"<br>");     //x1
+    document.write(inte + " x 2 = "+ inte * 2 +"<br>");     //x2
+    document.write(inte + " x 3 = "+ inte * 3 +"<br>");     //x3
+    document.write(inte + " x 4 = "+ inte * 4 +"<br>");     //x4
+    document.write(inte + " x 5 = "+ inte * 5 +"<br>");     //x5
+    document.write(inte + " x 6 = "+ inte * 6 +"<br>");     //x6
+    document.write(inte + " x 7 = "+ inte * 7 +"<br>");     //x7
+    document.write(inte + " x 8 = "+ inte * 8 +"<br>");     //x8
+    document.write(inte + " x 9 = "+ inte * 9 +"<br>");     //x9
+    document.write(inte + " x 10 = "+ inte * 10 +"<br>");   //x10
+}else {
+    //valor inválido
+    document.write("valor inválido");
+}
+
+
+//QUESTION 10
+
+document.writeln("<br><br>10:<br><br>")
+
+
+let nun = 1 
+//crescente
+while(nun <=10){
+    document.write(" "+nun+",");
+    nun++;
+} 
+
+let nun2 = 9 
+//decrescente
+while(nun2 >= 1){
+    document.write(" "+nun2+",");
+    nun2--;
+} 
+
