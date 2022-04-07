@@ -247,7 +247,18 @@ let num = 100
 while(num <=110){
     document.write(" "+num+",");
     num++;
-} 
+}
+
+//QUESTION 8
+
+document.writeln("<br><br>8:<br><br>")
+ 
+
+var n = 0.5;
+
+for(var x = 1; x <= n; x++){
+    console.write('strong>${x}</strong');
+}
 
 //QUESTION 09
 
